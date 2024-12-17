@@ -49,9 +49,9 @@ const Calculator = () => {
         <button onClick={() => handleButtonClick('8')}>8</button>
         <button onClick={() => handleButtonClick('9')}>9</button>
         <button onClick={() => handleButtonClick('*')}>*</button>
-        <button onClick={() => handleButtonClick('%')}>%</button>
         <button onClick={() => handleButtonClick('0')}>0</button>
-        
+        <button onClick={() => handleButtonClick('%')}>%</button>
+        <button onClick={() => handleButtonClick('00')}>00</button>
         <button onClick={calculateResult}>=</button>
         <button onClick={() => handleButtonClick('/')}>/</button>
         <button onClick={clearInput}>C</button>
